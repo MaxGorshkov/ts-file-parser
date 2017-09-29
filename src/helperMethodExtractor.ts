@@ -3,7 +3,7 @@ import tsm = require("./tsASTMatchers");
 import * as path from "path";
 import * as fs from "fs";
 
-import index = require("./index");
+import index = require("../index");
 import tsStructureParser = require("./tsStructureParser");
 import {HelperMethod} from "./helpers";
 import {Meta} from "./helpers";

@@ -1,5 +1,5 @@
-export import helpers = require("./helpers");
-import tsStructureParser = require("./tsStructureParser");
+export import helpers = require("./src/helpers");
+import tsStructureParser = require("./src/tsStructureParser");
 
 export interface Module {
     classes: ClassModel[];

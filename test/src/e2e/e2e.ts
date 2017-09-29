@@ -3,7 +3,7 @@
 import * as fs from "fs";
 import {} from "mocha";
 
-import {Module} from "../../../src/index" ;
+import {Module} from "../../../index" ;
 import {parseStruct} from "../../../src/tsStructureParser";
 import {expect} from "chai";
 

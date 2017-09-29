@@ -1,4 +1,4 @@
-import index = require("./index");
+import index = require("../index");
 import helperMethodExtractor = require("./helperMethodExtractor");
 
 var ns: {[key: string]: boolean} = {"RamlWrapper": true};
