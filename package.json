@@ -1,6 +1,8 @@
 {
   "name": "ts-file-parser",
   "version": "0.0.1",
+  "private": false,
+  "main": "dist/index.js",
   "scripts": {
     "build": "grunt build",
     "test": "grunt test"
