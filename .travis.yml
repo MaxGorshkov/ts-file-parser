@@ -3,4 +3,8 @@ language: node_js
 node_js:
   - "6.11.2"
 
+branches:
+  only:
+  - master
+
 script: npm run build && npm run test
